@@ -1,5 +1,5 @@
 # Blanking Circuit for Synchronizing a Projector DLP471TPEVM with Mini2P Scanning
-<h2 Overview/h2>
+**Overview**
 
 This repository presents the design, implementation, and validation of a blanking circuit used to synchronize a DLP projector with a Mini2P scanning system.
 
