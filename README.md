@@ -1,18 +1,15 @@
 # Blanking Circuit for Synchronizing a Projector DLP471TPEVM with Mini2P Scanning
 **Overview**
-
 This repository presents the design, implementation, and validation of a blanking circuit used to synchronize a DLP projector with a Mini2P scanning system.
 
 The projector displays visual stimuli in an area where a mouse can freely move. Depending on the task and experimental conditions, the mouse interacts with the presented visual scene by adjusting its movement relative to the projected image.
 
 **Motivation**
-
 In two-photon imaging, it is essential to suppress external light sources during data acquisition. The projector is used for visual stimulation but introduces optical artifacts if active during scanning.
 
 The blanking circuit ensures precise temporal control of the projection, activating it only during appropriate phases.
 
 **System Description**
-
 *Projector*
 DLPDLCR471TPEVM
 The system uses the Texas Instruments DLP LightCrafter 471TP evaluation module. It is based on a 0.47" 1080p DMD (DLP4710) and supports high refresh rates of up to 240 Hz at 1920×1080 resolution.
@@ -22,7 +19,6 @@ These features make it highly suitable for time-critical visual stimulation expe
 Both the Mini2P scanning system and the blanking signal are synchronized using a common DAQ (Data Acquisition system), ensuring precise temporal alignment between all relevant signals.
 
 **Working Principle**
-
 The blanking circuit controls the projector illumination depending on the scan phase:
 
 Active scanning → Projector off
