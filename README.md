@@ -64,7 +64,6 @@ The full timing is controlled by the DAQ:
 - Simultaneous neural recording using Mini2P
 
 ## Repository Structure
-
 .
 ├── docs/
 ├── hardware/ 
