@@ -65,9 +65,9 @@ The full timing is controlled by the DAQ:
 
 ## Repository Structure
 .
-├── docs/
-├── hardware/ 
-├── figures/
-├── bom/ 
-├── tests/ 
+├── docs/        # documentation
+├── hardware/    # PCB + schematics
+├── figures/     # images for paper/README
+├── bom/         # bill of materials
+├── tests/       # validation
 └── README.md
