@@ -68,7 +68,6 @@ The full timing is controlled by the DAQ:
 ├── README.md                  # Main project overview (paper-style introduction)
 ├── LICENSE                    # License file (e.g., MIT, CERN OHL)
 ├── .gitignore                 # Git ignore rules
-
 ├── docs/                      # Detailed documentation
 │   ├── system_overview.md     # High-level system description and architecture
 │   ├── hardware_design.md     # Circuit design and component explanation
