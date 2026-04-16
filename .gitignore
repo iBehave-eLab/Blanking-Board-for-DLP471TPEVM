@@ -1,0 +1,30 @@
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build / temp files
+# =========================
+*.log
+*.tmp
+*.cache
+
+# =========================
+# Hardware CAD
+# =========================
+# KiCad temporary files
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak

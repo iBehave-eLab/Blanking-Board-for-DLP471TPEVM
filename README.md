@@ -93,6 +93,7 @@ The full timing is controlled by the DAQ:
 
 ├── bom/                       # Bill of materials
 │   └── bill_of_materials.csv  # Component list with values and suppliers
+
 └── examples/                  # Example configurations and setups
     ├── daq_setup.md           # DAQ configuration and signal generation
     └── bonsai_integration.md  # Integration with Bonsai workflows
