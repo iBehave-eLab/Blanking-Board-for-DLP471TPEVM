@@ -64,10 +64,12 @@ The full timing is controlled by the DAQ:
 - Simultaneous neural recording using Mini2P
 
 ## Repository Structure
+```
 .
 ├── README.md                  # Main project overview (paper-style introduction)
 ├── LICENSE                    # License file (e.g., MIT, CERN OHL)
 ├── .gitignore                 # Git ignore rules
+
 ├── docs/                      # Detailed documentation
 │   ├── system_overview.md     # High-level system description and architecture
 │   ├── hardware_design.md     # Circuit design and component explanation
@@ -92,8 +94,9 @@ The full timing is controlled by the DAQ:
 ├── bom/                       # Bill of materials
 │   └── bill_of_materials.csv  # Component list with values and suppliers
 
-├── firmware/ (optional)       # Firmware or control code (if needed later)
+├── firmware/                  # (optional) Firmware or control code
 
 └── examples/                  # Example configurations and setups
     ├── daq_setup.md           # DAQ configuration and signal generation
     └── bonsai_integration.md  # Integration with Bonsai workflows
+```
