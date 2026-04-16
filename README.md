@@ -65,9 +65,36 @@ The full timing is controlled by the DAQ:
 
 ## Repository Structure
 .
-├── docs/        # documentation
-├── hardware/    # PCB + schematics
-├── figures/     # images for paper/README
-├── bom/         # bill of materials
-├── tests/       # validation
-└── README.md
+├── README.md                  # Main project overview (paper-style introduction)
+├── LICENSE                    # License file (e.g., MIT, CERN OHL)
+├── .gitignore                 # Git ignore rules
+
+├── docs/                      # Detailed documentation
+│   ├── system_overview.md     # High-level system description and architecture
+│   ├── hardware_design.md     # Circuit design and component explanation
+│   ├── ti_integration.md      # Integration with TI board (DLPC6540 / DLPA3005)
+│   ├── timing_and_latency.md  # Timing behavior and latency measurements
+│   └── usage.md               # Setup instructions and usage examples
+
+├── hardware/                  # Hardware design files
+│   ├── schematics/            # Circuit schematics (PDF, source files)
+│   ├── pcb/                   # PCB layout files (KiCad, Altium, etc.)
+│   ├── gerber/                # Manufacturing files for PCB fabrication
+│   └── manufacturing_notes.md # Assembly and production notes
+
+├── figures/                   # Figures for README and publications
+│   ├── system_block_diagram.png # System overview diagram (DAQ, Mini2P, projector)
+│   ├── timing_diagram.png       # Timing relationship (scan vs blanking)
+│   └── latency_plot.png         # Measured latency and jitter
+
+├── data/                      # Experimental and measurement data
+│   └── latency_measurements/  # Raw data and processed results
+
+├── bom/                       # Bill of materials
+│   └── bill_of_materials.csv  # Component list with values and suppliers
+
+├── firmware/ (optional)       # Firmware or control code (if needed later)
+
+└── examples/                  # Example configurations and setups
+    ├── daq_setup.md           # DAQ configuration and signal generation
+    └── bonsai_integration.md  # Integration with Bonsai workflows
